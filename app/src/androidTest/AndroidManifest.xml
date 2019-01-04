@@ -22,6 +22,6 @@
 
     <instrumentation android:targetPackage="com.example.android.testing.espresso.BasicSample"
                      android:name="androidx.test.runner.AndroidJUnitRunner"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application tools:replace="label" android:label="BasicSampleTest" />
 </manifest>
